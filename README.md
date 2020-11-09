@@ -18,6 +18,10 @@ specific endpoints required because they all have to be used to reference each o
 /stops
 /predictions
 
+Specific filters required:
+https://api-v3.mbta.com/routes/?fields%5Broute%5D=short_name,long_name (returns names of lines)
+https://api-v3.mbta.com/stops/?filter[route]
+
 ```json
 
 
@@ -25,13 +29,11 @@ specific endpoints required because they all have to be used to reference each o
 
 ## Wireframes
 
-![homepage](/Homepage.png?raw=true "Home Page")
-![page 2](/page2.png?raw=true "Page 2" )
+![homepage](/assets/Homepage.png?raw=true "Home Page")
+![page 2](/assets/page2.png?raw=true "Page 2" )
 
 
 ### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
