@@ -12,9 +12,8 @@ This application uses the MBTA APIs to display upcoming departures depending on 
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 https://api-v3.mbta.com/
-specific endpoints required: 
+specific endpoints required because they all have to be used to reference each other: 
 /routes
 /stops
 /predictions
@@ -26,9 +25,8 @@ specific endpoints required:
 
 ## Wireframes
 
-----WIREFRAMES GO HERE----
-
---------------------------
+![homepage](/Homepage.png?raw=true "Home Page")
+![page 2](/page2.png?raw=true "Page 2" )
 
 
 ### MVP/PostMVP
