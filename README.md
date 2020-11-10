@@ -9,8 +9,11 @@ Deployed Link :  _______________
 ## Project Description
 
 This application uses the TransitLand v1 API (will upgrade to v2 when released) to display nearby transit stops that can be filtered based on user input.
+
 Stretch goal - desktop version
+
 Stretch goal - add departure times to nearby stop information.
+
 Stretch goal - save user information and preferences for later use.
 
 ## API and Data Sample
@@ -83,7 +86,7 @@ https://transit.land/api/v1/routes?operated_by=o-drt-mbta&per_page=500 (gets all
 ![page 2](/assets/page2.png?raw=true "Page 2" )
 
 
-### MVP/PostMVP
+## MVP/PostMVP
 
 #### MVP 
 
@@ -101,15 +104,11 @@ https://transit.land/api/v1/routes?operated_by=o-drt-mbta&per_page=500 (gets all
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Nov 9| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |Nov 10| Project Approval | Incomplete
-|Nov 12| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Nov 12| Core Application Structure (HTML, CSS, etc.) Begin on JS | Incomplete
 |Nov 13| Pseudocode / actual code | Incomplete
 |Nov 16| MVP | Incomplete
 |Nov 17| Presentations | Incomplete
@@ -120,18 +119,18 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Students usally put in around 40+ hours into their project 1.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Finding/figuring Out APIs | H | 1hrs| .5hrs | 0hrs |
-| Basic HTML/CSS/JS | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Finding/figuring Out APIs | H | 1hrs| 3hrs | 3hrs |
+| Build out Base HTML | H | 2hrs| 0hrs | 0hrs |
+| Search and Filter HTML inputs | 1hr | 0hrs | 0hrs |
+| Build out CSS Styling | H | 3hrs| 0hrs | 0hrs |
+| Build out JS functions to pull data | H | 4hrs| 0hrs | 0hrs |
+| Build out JS functions to filter data | H | 3hrs| 0hrs | 0hrs |
+| Build out JS to pull location data | H | 3hrs| 0hrs | 0hrs |
+| Build out JS functions to dynamically display nearby stops | H | 3hrs| 0hrs | 0hrs |
+| Use local storage to add save preference functionality | M | 2hrs | 0hrs | 0hrs|
+| Figure out getting departure data | M | 2hrs | 0hrs | 0hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Code Snippet
